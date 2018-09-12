@@ -27,7 +27,8 @@ Terraform Deployment
 
 To deploy the infrastructure on AWS, run the following commands on the same location as the dmarc.tf file:
 
-Command `terraform init` and then `terraform apply` will deploy the infrastructure.
+``terraform init``
+``terraform apply``
 
 The following variables are defined on the terraform file:
 
