@@ -2,8 +2,8 @@ DMARCLESS - Serverless DMARC solution
 ==========================================================
 
 .. image:: docs/images/aws_architecture.png
-:align: center
-:alt: DMARC Diagram
+  :align: center
+  :alt: DMARC Diagram
 
 
 DMARCLESS is a fully working serverless DMARC solution built on AWS.
