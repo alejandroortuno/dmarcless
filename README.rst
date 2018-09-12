@@ -11,7 +11,7 @@ DMARCLESS is a fully working serverless DMARC solution built on AWS.
 Requirements
 --------
 DMARCLESS requires to have the email mamanged by AWS SES. The infrastructure is deployed using Terraform.
-Two Terraform modules are needed, AWS and archive to generate ZIP files.
+Two Terraform modules are needed, AWS and archive to generate ZIP files. The Terraform user needs to have enough permissions to deploy the infrastructure on AWS.
 
 AWS Arquitecture
 --------
@@ -27,10 +27,7 @@ Terraform Deployment
 
 To deploy the infrastructure on AWS, run the following commands on the same location as the dmarc.tf file:
 
-```
-terraform init
-terraform apply
-```
+Command `terraform init` and then `terraform apply` will deploy the infrastructure.
 
 The following variables are defined on the terraform file:
 
